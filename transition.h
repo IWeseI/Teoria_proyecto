@@ -1,7 +1,6 @@
 #ifndef TEO_PROYECTO_TRANSITION_H
 #define TEO_PROYECTO_TRANSITION_H
-#include "automata.h"
-
+struct State;
 // Alfabeto = {0,1,-1 (epsilon)}
 struct Transition{
     Transition(int data, State* id1, State* id2);

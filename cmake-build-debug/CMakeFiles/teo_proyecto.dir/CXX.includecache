@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/efrai/CLionProjects/teo-proyecto/automata.h
+iostream
+-
+state.h
+C:/Users/efrai/CLionProjects/teo-proyecto/state.h
+
+C:/Users/efrai/CLionProjects/teo-proyecto/main.cpp
+iostream
+-
+list
+-
+queue
+-
+vector
+-
+unordered_map
+-
+automata.h
+C:/Users/efrai/CLionProjects/teo-proyecto/automata.h
+
+C:/Users/efrai/CLionProjects/teo-proyecto/state.h
+transition.h
+C:/Users/efrai/CLionProjects/teo-proyecto/transition.h
+string
+-
+unordered_map
+-
+list
+-
+vector
+-
+
+C:/Users/efrai/CLionProjects/teo-proyecto/transition.h
+

@@ -2,12 +2,7 @@
 #define TEO_PROYECTO_AUTOMATA_H
 
 #include <iostream>
-#include "transition.h"
 #include "state.h"
-#include <string>
-#include <unordered_map>
-#include <list>
-#include <vector>
 using namespace std;
 
 class Automata {
@@ -18,23 +13,25 @@ private:
 public:
     Automata();
     void processInput(int num_states);
-    /*void insertVertex(int id, TV vertex) {
-        Vertex <TV, TE> *vertextemp = new Vertex<TV, TE>;
-        vertextemp->data = vertex;
-        vertexes[id] = vertextemp;
-    }
-
-    void display() {
-        for (auto it = vertexes.begin(); it != vertexes.end(); it++) {
-            displayVertex(it->first);
-        }
-    }*/
+    void display();
     void clear();
     ~Automata();
 
 };
 
-auto automata = new Automata()
+void Automata::display() {
+    cout<<this->states.size()<<" "<<this->first_state<<" "<<this->final_states.size()<<" ";
+    for(auto final: this->final_states) cout<<final<<" ";
+    for(int i=0; i < this->states.size(); i++){
+        for(auto transition: this->states[i]->transitions){
+            cout<<endl;
+            cout<<(*transition->states[0]).id<<" ";
+            cout<<(*transition).data<<" ";
+            cout<<(*transition->states[1]).id<<" ";
+        }
+    }
+}
+
 Automata::Automata() {
     int num_states {}, num_finals {};
     cin>>num_states;
@@ -45,7 +42,7 @@ Automata::Automata() {
         cin>>id;
         this->final_states.push_back(id);
     }
-    processInput(num_states);
+    processInput(2*num_states);
 }
 
 void Automata::clear() {
@@ -70,7 +67,8 @@ void Automata::processInput(int num_states) {
             auto *s2 = new State(id2);
             this->states[id2] = s2;
         }
-        auto transition = Transition(data, this->states[id1], this->states[id2]);
+        auto transition = new Transition(data, this->states[id1], this->states[id2]);
+        this->states[id1]->transitions.push_back(transition);
     }
 }
 
