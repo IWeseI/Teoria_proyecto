@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.15)
+project(teo_proyecto)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(teo_proyecto main.cpp automata.h transition.h state.h)
