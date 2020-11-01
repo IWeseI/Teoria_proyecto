@@ -80,10 +80,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/efrai/CLionProjects/teo-proyecto/automata.h">
+		<Unit filename="C:/Users/efrai/CLionProjects/teo-proyecto/detautomata.h">
 			<Option target="teo_proyecto"/>
 		</Unit>
 		<Unit filename="C:/Users/efrai/CLionProjects/teo-proyecto/main.cpp">
+			<Option target="teo_proyecto"/>
+		</Unit>
+		<Unit filename="C:/Users/efrai/CLionProjects/teo-proyecto/revautomata.h">
 			<Option target="teo_proyecto"/>
 		</Unit>
 		<Unit filename="C:/Users/efrai/CLionProjects/teo-proyecto/state.h">

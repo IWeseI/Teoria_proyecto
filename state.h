@@ -5,13 +5,14 @@
 #include <unordered_map>
 #include <list>
 #include <vector>
+
 using namespace std;
 struct State {
-    State(int id);
-    int id;
+    State(string id);
+    string id;
     vector<Transition*> transitions {};
 };
 
-State::State(int id): id(id) {};
+State::State(string id): id(id) {};
 
 #endif //TEO_PROYECTO_STATE_H

@@ -1,7 +1,8 @@
 #ifndef TEO_PROYECTO_TRANSITION_H
 #define TEO_PROYECTO_TRANSITION_H
+
 struct State;
-// Alfabeto = {0,1,-1 (epsilon)}
+// Alfabeto = {0,1}
 struct Transition{
     Transition(int data, State* id1, State* id2);
     State* states[2] {};

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/efrai/CLionProjects/teo-proyecto/automata.h
+C:/Users/efrai/CLionProjects/teo-proyecto/detautomata.h
 iostream
 -
 state.h
@@ -15,16 +15,22 @@ C:/Users/efrai/CLionProjects/teo-proyecto/state.h
 C:/Users/efrai/CLionProjects/teo-proyecto/main.cpp
 iostream
 -
-list
--
 queue
 -
-vector
+string
 -
 unordered_map
 -
-automata.h
-C:/Users/efrai/CLionProjects/teo-proyecto/automata.h
+detautomata.h
+C:/Users/efrai/CLionProjects/teo-proyecto/detautomata.h
+revautomata.h
+C:/Users/efrai/CLionProjects/teo-proyecto/revautomata.h
+
+C:/Users/efrai/CLionProjects/teo-proyecto/revautomata.h
+detautomata.h
+C:/Users/efrai/CLionProjects/teo-proyecto/detautomata.h
+iostream
+-
 
 C:/Users/efrai/CLionProjects/teo-proyecto/state.h
 transition.h
