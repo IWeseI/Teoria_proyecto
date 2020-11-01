@@ -6,10 +6,11 @@
 using namespace std;
 
 struct Automata {
-    unordered_map<string, State*> states;
+    unordered_map<int, State*> states;
     int first_state;
     vector<int> final_states;
     Automata();
+    void addState(int key, Transition* transition);
     void readInput();
     void processInput(int num_states);
     void display();
@@ -42,8 +43,7 @@ Automata::~Automata() {
 
 void Automata::processInput(int num_states) {
     while(num_states--){
-        string id1 {}, id2 {};
-        int data {};
+        int id1 {}, id2 {}, data{};
         cin>>id1;
         cin>>data;
         cin>>id2;
@@ -71,6 +71,15 @@ void Automata::readInput() {
         this->final_states.push_back(id);
     }
     processInput(2*num_states);
+}
+
+void Automata::addState(int key, Transition* transition) {
+    for(auto state: this->states){
+        if(state.first == key)
+            return;
+    }
+    auto newState = State(key);
+    newState.transitions.push_back(transition);
 }
 
 #endif //TEO_PROYECTO_DETAUTOMATA_H

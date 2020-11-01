@@ -6,26 +6,37 @@
 #include "revautomata.h"
 using namespace std;
 
-string mergeElements(const vector<string>& vec){
+/*string mergeElements(const vector<string>& vec){
     string output;
     for(const string& element: vec)
         output += element;
     return output;
-}
+}*/
 
 Automata Converse(const RevAutomata& rev){
-    unordered_map<string, State*> states = rev.states;
-    for(const auto& state: states) {
-        vector<string> zeroKeys {};
-        vector<string> oneKeys {};
-        for(auto transition: state.second->transitions){
-            if(transition->data == 0)
-                zeroKeys.push_back((transition->states[1])->id);
-            else
-                oneKeys.push_back((transition->states[1])->id);
+    unordered_map<int, priority_queue<int>> visitedKeys;
+    int cont {};
+    queue<priority_queue<int>> temp {};
+    vector<int> zeroTransitions {};
+    vector<int> oneTransitions {};
+    priority_queue<int> pq {};
+    for(auto stateid: rev.first_states)
+        pq.push(stateid);
+    visitedKeys[cont++] = pq;
+    temp.push(pq);
+    while(!temp.empty()){
+        auto top = temp.front();
+        for(auto q: top){
+            for(auto transition: visitedKeys[q].second->transitions){
+
+            }
         }
-        auto state0 = mergeElements(zeroKeys);
-        auto state1 = mergeElements(zeroKeys);
+    }
+
+    for(const auto& state: rev.states) {
+        for(auto transition: state.second->transitions){
+
+        }
     }
 }
 

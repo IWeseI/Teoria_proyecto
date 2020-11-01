@@ -8,11 +8,11 @@
 
 using namespace std;
 struct State {
-    State(string id);
-    string id;
+    State(int id);
+    int id;
     vector<Transition*> transitions {};
 };
 
-State::State(string id): id(id) {};
+State::State(int id): id(id) {};
 
 #endif //TEO_PROYECTO_STATE_H
