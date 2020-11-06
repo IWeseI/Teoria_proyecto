@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/teo_proyecto.dir/main.cpp.obj"
-  "libteo_proyecto.dll.a"
   "teo_proyecto.exe"
   "teo_proyecto.exe.manifest"
+  "teo_proyecto.lib"
   "teo_proyecto.pdb"
 )
 

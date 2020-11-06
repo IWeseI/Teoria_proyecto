@@ -6,35 +6,41 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/efrai/CLionProjects/teo-proyecto/detautomata.h
+C:/Users/Wese/Downloads/Teoria_proyecto-main/Teoria_proyecto-main/detautomata.h
 iostream
 -
 state.h
-C:/Users/efrai/CLionProjects/teo-proyecto/state.h
+C:/Users/Wese/Downloads/Teoria_proyecto-main/Teoria_proyecto-main/state.h
 
-C:/Users/efrai/CLionProjects/teo-proyecto/main.cpp
+C:/Users/Wese/Downloads/Teoria_proyecto-main/Teoria_proyecto-main/main.cpp
 iostream
 -
 queue
 -
 string
 -
+algorithm
+-
+functional
+-
+set
+-
 unordered_map
 -
 detautomata.h
-C:/Users/efrai/CLionProjects/teo-proyecto/detautomata.h
+C:/Users/Wese/Downloads/Teoria_proyecto-main/Teoria_proyecto-main/detautomata.h
 revautomata.h
-C:/Users/efrai/CLionProjects/teo-proyecto/revautomata.h
+C:/Users/Wese/Downloads/Teoria_proyecto-main/Teoria_proyecto-main/revautomata.h
 
-C:/Users/efrai/CLionProjects/teo-proyecto/revautomata.h
+C:/Users/Wese/Downloads/Teoria_proyecto-main/Teoria_proyecto-main/revautomata.h
 detautomata.h
-C:/Users/efrai/CLionProjects/teo-proyecto/detautomata.h
+C:/Users/Wese/Downloads/Teoria_proyecto-main/Teoria_proyecto-main/detautomata.h
 iostream
 -
 
-C:/Users/efrai/CLionProjects/teo-proyecto/state.h
+C:/Users/Wese/Downloads/Teoria_proyecto-main/Teoria_proyecto-main/state.h
 transition.h
-C:/Users/efrai/CLionProjects/teo-proyecto/transition.h
+C:/Users/Wese/Downloads/Teoria_proyecto-main/Teoria_proyecto-main/transition.h
 string
 -
 unordered_map
@@ -44,5 +50,5 @@ list
 vector
 -
 
-C:/Users/efrai/CLionProjects/teo-proyecto/transition.h
+C:/Users/Wese/Downloads/Teoria_proyecto-main/Teoria_proyecto-main/transition.h
 
