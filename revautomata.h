@@ -9,6 +9,7 @@ struct RevAutomata {
     vector<int> first_states;
     int final_state;
     explicit RevAutomata(const Automata& automata);
+    void createTransition(int data, int id1, int id2);
     void display();
     void clear();
     ~RevAutomata();
@@ -36,7 +37,7 @@ void RevAutomata::display() {
     }
 }
 
-RevAutomata::RevAutomata(const Automata& automata) {
+/*RevAutomata::RevAutomata(const Automata& automata) {
     final_state = automata.first_state;
     first_states = automata.final_states;
     this->states = automata.states;
@@ -44,6 +45,26 @@ RevAutomata::RevAutomata(const Automata& automata) {
         for(auto transiton: state.second->transitions)
             swap(transiton->states[0], transiton->states[1]);
     }
+}*/
+
+RevAutomata::RevAutomata(const Automata& automata) {
+    final_state = automata.first_state;
+    first_states = automata.final_states;
+    for (int i = 0; i < automata.states.size(); ++i) {
+        this->states[i] = new State(i);
+    }
+    for (auto state : this->states) {
+        state.second->transitions.clear();
+    }
+    for(const auto& state: automata.states){
+        for(auto transiton: state.second->transitions)
+            createTransition(transiton->data, transiton->states[0]->id, transiton->states[1]->id);
+    }
+}
+
+void RevAutomata::createTransition(int data, int id1, int id2) {
+    Transition* t = new Transition(data, states[id2], states[id1]);
+    states[id2]->transitions.push_back(t);
 }
 
 #endif //TEO_PROYECTO_REVAUTOMATA_H

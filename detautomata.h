@@ -10,7 +10,9 @@ struct Automata {
     int first_state;
     vector<int> final_states;
     Automata();
-    void addState(int key, Transition* transition);
+    void createState(int key);
+    void createTransition(int id1, int id2, int data);
+    //void addState(int key, Transition* transition);
     void readInput();
     void processInput(int num_states);
     void display();
@@ -73,13 +75,22 @@ void Automata::readInput() {
     processInput(2*num_states);
 }
 
-void Automata::addState(int key, Transition* transition) {
+/*void Automata::addState(int key, Transition* transition) {
     for(auto state: this->states){
         if(state.first == key)
             return;
     }
     auto newState = State(key);
     newState.transitions.push_back(transition);
+}*/
+
+void Automata::createState(int key) {
+    states[key] = new State(key);
+}
+
+void Automata::createTransition(int id1, int id2, int data) {
+    Transition* t = new Transition(data, states[id1], states[id2]);
+    states[id1]->transitions.push_back(t);
 }
 
 #endif //TEO_PROYECTO_DETAUTOMATA_H
