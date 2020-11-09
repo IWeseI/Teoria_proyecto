@@ -2,17 +2,17 @@
 #define TEO_PROYECTO_DETAUTOMATA_H
 
 #include <iostream>
+#include <map>
 #include "state.h"
 using namespace std;
 
 struct Automata {
-    unordered_map<int, State*> states;
-    int first_state;
-    vector<int> final_states;
+    map<int, State*> states;
+    int firstState{};
+    vector<int> finalStates;
     Automata();
     void createState(int key);
     void createTransition(int id1, int id2, int data);
-    //void addState(int key, Transition* transition);
     void readInput();
     void processInput(int num_states);
     void display();
@@ -21,8 +21,8 @@ struct Automata {
 };
 
 void Automata::display() {
-    cout<<this->states.size()<<" "<<this->first_state<<" "<<this->final_states.size()<<" ";
-    for(auto final: this->final_states) cout<<final<<" ";
+    cout<<this->states.size()<<" "<<this->firstState<<" "<<this->finalStates.size()<<" ";
+    for(auto final: this->finalStates) cout<<final<<" ";
     for(auto state: this->states){
         for(auto transition: state.second->transitions){
             cout<<endl;
@@ -65,12 +65,12 @@ void Automata::processInput(int num_states) {
 void Automata::readInput() {
     int num_states {}, num_finals {};
     cin>>num_states;
-    cin>>this->first_state;
+    cin>>this->firstState;
     cin>>num_finals;
     while(num_finals--){
         int id {};
         cin>>id;
-        this->final_states.push_back(id);
+        this->finalStates.push_back(id);
     }
     processInput(2*num_states);
 }
@@ -89,7 +89,7 @@ void Automata::createState(int key) {
 }
 
 void Automata::createTransition(int id1, int id2, int data) {
-    Transition* t = new Transition(data, states[id1], states[id2]);
+    auto* t = new Transition(data, states[id1], states[id2]);
     states[id1]->transitions.push_back(t);
 }
 

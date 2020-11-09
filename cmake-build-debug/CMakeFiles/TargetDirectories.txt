@@ -1,0 +1,3 @@
+C:/Users/efrai/CLionProjects/teo-proyecto/cmake-build-debug/CMakeFiles/teo_proyecto.dir
+C:/Users/efrai/CLionProjects/teo-proyecto/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/efrai/CLionProjects/teo-proyecto/cmake-build-debug/CMakeFiles/rebuild_cache.dir

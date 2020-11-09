@@ -8,7 +8,7 @@
 
 using namespace std;
 struct State {
-    State(int id);
+    explicit State(int id);
     int id;
     vector<Transition*> transitions {};
 };
