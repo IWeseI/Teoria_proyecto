@@ -47,8 +47,11 @@ RevAutomata::RevAutomata(const Automata& automata) {
         state.second->transitions.clear();
     }
     for(const auto& state: automata.states){
-        for(auto transiton: state.second->transitions)
-            createTransition(transiton->data, transiton->states[0]->id, transiton->states[1]->id);
+        cout<<state.first<<": "<<endl;
+        for(auto transiton: state.second->transitions) {
+            //cout << transiton->states[0]->id << "->" << transiton->states[1]->id << endl;
+            this->createTransition(transiton->data, state.first, transiton->states[1]->id);
+        }
     }
 }
 

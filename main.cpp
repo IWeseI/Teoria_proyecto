@@ -7,8 +7,10 @@
 int main() {
     auto a = Automata();
     a.readInput();
-    auto b = Brzozowski(a);
-    b.display();
-    //printMatrizEquivalencia(equivalencia(a));
+    //a.display();
+    //auto b = Brzozowski(a);
+    //b.display();
+    //cout<<endl;
+    printMatrizEquivalencia(equivalenciaEstados(a));
     return 0;
 }

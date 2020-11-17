@@ -6,5 +6,6 @@
 #include <unordered_map>
 #include <vector>
 #include <stdexcept>
+#include <algorithm>
 using namespace std;
 #endif //TEO_PROYECTO_LIB_H

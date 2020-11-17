@@ -43,6 +43,8 @@ vector
 -
 stdexcept
 -
+algorithm
+-
 
 C:/Users/efrai/CLionProjects/teo-proyecto/main.cpp
 lib.h

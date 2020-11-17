@@ -75,15 +75,6 @@ void Automata::readInput() {
     processInput(2*num_states);
 }
 
-/*void Automata::addState(int key, Transition* transition) {
-    for(auto state: this->states){
-        if(state.first == key)
-            return;
-    }
-    auto newState = State(key);
-    newState.transitions.push_back(transition);
-}*/
-
 void Automata::createState(int key) {
     states[key] = new State(key);
 }
