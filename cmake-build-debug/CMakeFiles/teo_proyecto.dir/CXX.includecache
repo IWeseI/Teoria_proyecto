@@ -6,6 +6,14 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/efrai/CLionProjects/teo-proyecto/bettermatrix.h
+lib.h
+C:/Users/efrai/CLionProjects/teo-proyecto/lib.h
+detautomata.h
+C:/Users/efrai/CLionProjects/teo-proyecto/detautomata.h
+equivalencia.h
+C:/Users/efrai/CLionProjects/teo-proyecto/equivalencia.h
+
 C:/Users/efrai/CLionProjects/teo-proyecto/brozozowski.h
 detautomata.h
 C:/Users/efrai/CLionProjects/teo-proyecto/detautomata.h
@@ -45,12 +53,16 @@ stdexcept
 -
 algorithm
 -
+set
+-
 
 C:/Users/efrai/CLionProjects/teo-proyecto/main.cpp
 lib.h
 C:/Users/efrai/CLionProjects/teo-proyecto/lib.h
 detautomata.h
 C:/Users/efrai/CLionProjects/teo-proyecto/detautomata.h
+bettermatrix.h
+C:/Users/efrai/CLionProjects/teo-proyecto/bettermatrix.h
 revautomata.h
 C:/Users/efrai/CLionProjects/teo-proyecto/revautomata.h
 equivalencia.h

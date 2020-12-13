@@ -7,5 +7,6 @@
 #include <vector>
 #include <stdexcept>
 #include <algorithm>
+#include <set>
 using namespace std;
 #endif //TEO_PROYECTO_LIB_H

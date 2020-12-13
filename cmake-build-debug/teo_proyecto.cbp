@@ -80,6 +80,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/efrai/CLionProjects/teo-proyecto/bettermatrix.h">
+			<Option target="teo_proyecto"/>
+		</Unit>
 		<Unit filename="C:/Users/efrai/CLionProjects/teo-proyecto/brozozowski.h">
 			<Option target="teo_proyecto"/>
 		</Unit>
