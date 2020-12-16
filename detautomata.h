@@ -24,11 +24,11 @@ void Automata::display() {
     cout<<this->states.size()<<" "<<this->firstState<<" "<<this->finalStates.size()<<" ";
     for(auto final: this->finalStates) cout<<final<<" ";
     for(auto state: this->states){
-        for(auto transition: state.second->transitions){
+        for(auto i: {0,1}){
             cout<<endl;
-            cout<<(*transition->states[0]).id<<" ";
-            cout<<(*transition).data<<" ";
-            cout<<(*transition->states[1]).id<<" ";
+            cout<<(state.second->transitions[i]->states[0])->id<<" ";
+            cout<<(state.second->transitions[i])->data<<" ";
+            cout<<(state.second->transitions[i]->states[1])->id<<" ";
         }
     }
 }

@@ -98,6 +98,9 @@
 		<Unit filename="C:/Users/efrai/CLionProjects/teo-proyecto/main.cpp">
 			<Option target="teo_proyecto"/>
 		</Unit>
+		<Unit filename="C:/Users/efrai/CLionProjects/teo-proyecto/minafd.h">
+			<Option target="teo_proyecto"/>
+		</Unit>
 		<Unit filename="C:/Users/efrai/CLionProjects/teo-proyecto/revautomata.h">
 			<Option target="teo_proyecto"/>
 		</Unit>

@@ -7,6 +7,7 @@ CMakeFiles/teo_proyecto.dir/main.cpp.obj: ../detautomata.h
 CMakeFiles/teo_proyecto.dir/main.cpp.obj: ../equivalencia.h
 CMakeFiles/teo_proyecto.dir/main.cpp.obj: ../lib.h
 CMakeFiles/teo_proyecto.dir/main.cpp.obj: ../main.cpp
+CMakeFiles/teo_proyecto.dir/main.cpp.obj: ../minafd.h
 CMakeFiles/teo_proyecto.dir/main.cpp.obj: ../revautomata.h
 CMakeFiles/teo_proyecto.dir/main.cpp.obj: ../state.h
 CMakeFiles/teo_proyecto.dir/main.cpp.obj: ../transition.h

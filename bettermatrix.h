@@ -7,7 +7,7 @@
 void dfs_recursivo(Automata a, State* first_state, State* second_state, vector<pair<int,int>>& pairVector,vector<pair<int,int>>& visited, bool& distingishable);
 pair<vector<pair<int,int>>, bool> dfs(Automata a, int first, int second);
 
-vector<vector<bool>> equivalencia_optimizada(const Automata& a, vector<vector<bool>> xd){
+vector<vector<bool>> equivalencia_optimizada(const Automata& a){
     vector<vector<bool>> out {};
     for(auto i = 0; i < a.states.size(); i++){
         vector<bool> temp;

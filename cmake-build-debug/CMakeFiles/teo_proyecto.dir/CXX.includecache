@@ -61,14 +61,18 @@ lib.h
 C:/Users/efrai/CLionProjects/teo-proyecto/lib.h
 detautomata.h
 C:/Users/efrai/CLionProjects/teo-proyecto/detautomata.h
-bettermatrix.h
-C:/Users/efrai/CLionProjects/teo-proyecto/bettermatrix.h
+minafd.h
+C:/Users/efrai/CLionProjects/teo-proyecto/minafd.h
 revautomata.h
 C:/Users/efrai/CLionProjects/teo-proyecto/revautomata.h
 equivalencia.h
 C:/Users/efrai/CLionProjects/teo-proyecto/equivalencia.h
 brozozowski.h
 C:/Users/efrai/CLionProjects/teo-proyecto/brozozowski.h
+
+C:/Users/efrai/CLionProjects/teo-proyecto/minafd.h
+bettermatrix.h
+C:/Users/efrai/CLionProjects/teo-proyecto/bettermatrix.h
 
 C:/Users/efrai/CLionProjects/teo-proyecto/revautomata.h
 detautomata.h
