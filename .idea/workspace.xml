@@ -39,14 +39,14 @@
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
-    <configuration name="teo_proyecto" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="teo_proyecto" TARGET_NAME="teo_proyecto" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="teo_proyecto" RUN_TARGET_NAME="teo_proyecto">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="teo_proyecto" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="teo_proyecto" TARGET_NAME="teo_proyecto" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="teo_proyecto" RUN_TARGET_NAME="teo_proyecto">
       <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>

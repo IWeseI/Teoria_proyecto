@@ -195,7 +195,14 @@ Automata Hopcroft(Automata a) {
         }
     }
 
-
+    //remove unreachable states
+    auto reachable = singleDFS(minAFD);
+    for (auto i : reachable) {
+        if (!i.second) {
+            minAFD.states.erase(i.first);
+            minAFD.finalStates.erase(remove(minAFD.finalStates.begin(), minAFD.finalStates.end(), i.first), minAFD.finalStates.end());
+        }
+    }
 
     return minAFD;
 }
