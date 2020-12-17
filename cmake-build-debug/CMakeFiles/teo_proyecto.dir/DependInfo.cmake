@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/efrai/CLionProjects/teo-proyecto/main.cpp" "C:/Users/efrai/CLionProjects/teo-proyecto/cmake-build-debug/CMakeFiles/teo_proyecto.dir/main.cpp.obj"
+  "C:/Users/ASUS/2020-2/TC/Teoria_proyecto/main.cpp" "C:/Users/ASUS/2020-2/TC/Teoria_proyecto/cmake-build-debug/CMakeFiles/teo_proyecto.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
