@@ -194,6 +194,8 @@ Automata Hopcroft(Automata a) {
         }
     }
 
+
+
     return minAFD;
 }
 

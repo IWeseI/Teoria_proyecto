@@ -21,7 +21,7 @@ int main() {
     //cout<<"-------------------------------"<<endl;
     printMatrizEquivalencia(equivalencia_optimizada(a));
     cout<<"-------------------------------"<<endl;
-    auto b = Hopcroft(a);
+    auto b = Brzozowski(a);
     b.display();
     return 0;
 }
