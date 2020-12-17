@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="teo_proyecto" targetName="teo_proyecto" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" ENABLED="true" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="028f7b5d-8a6c-4f3e-b116-9b8f34ec766d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectId" id="1jZ0aJlOlVO0ATqdvje6FOVvSLY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="teo_proyecto" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="teo_proyecto" TARGET_NAME="teo_proyecto" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="teo_proyecto" RUN_TARGET_NAME="teo_proyecto">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="028f7b5d-8a6c-4f3e-b116-9b8f34ec766d" name="Default Changelist" comment="" />
+      <created>1603996368253</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603996368253</updated>
+      <workItem from="1603996369557" duration="8952000" />
+      <workItem from="1604014465243" duration="3325000" />
+      <workItem from="1604033217148" duration="346000" />
+      <workItem from="1604186034509" duration="6330000" />
+      <workItem from="1604198322301" duration="2696000" />
+      <workItem from="1604804742943" duration="279000" />
+      <workItem from="1604849026538" duration="5901000" />
+      <workItem from="1604877614802" duration="2451000" />
+      <workItem from="1604906236078" duration="77000" />
+      <workItem from="1604956580696" duration="59000" />
+      <workItem from="1604977841058" duration="3002000" />
+      <workItem from="1605109647738" duration="1707000" />
+      <workItem from="1605123966868" duration="34000" />
+      <workItem from="1605189816157" duration="6000000" />
+      <workItem from="1605363614590" duration="12773000" />
+      <workItem from="1605455543632" duration="641000" />
+      <workItem from="1605625844686" duration="5283000" />
+      <workItem from="1605762542211" duration="21000" />
+      <workItem from="1606009797326" duration="79000" />
+      <workItem from="1607786478906" duration="5406000" />
+      <workItem from="1607791898794" duration="6059000" />
+      <workItem from="1607830502432" duration="851000" />
+      <workItem from="1607878248574" duration="36666000" />
+      <workItem from="1608102142825" duration="17100000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>

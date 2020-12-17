@@ -5,7 +5,7 @@
 using namespace std;
 
 struct RevAutomata {
-    unordered_map<int, State*> states;
+    map<int, State*> states;
     vector<int> firstStates;
     int finalState;
     explicit RevAutomata(const Automata& automata);
@@ -40,11 +40,8 @@ void RevAutomata::display() {
 RevAutomata::RevAutomata(const Automata& automata) {
     finalState = automata.firstState;
     firstStates = automata.finalStates;
-    for (int i = 0; i < automata.states.size(); ++i) {
-        this->states[i] = new State(i);
-    }
-    for (auto state : this->states) {
-        state.second->transitions.clear();
+    for (auto i : automata.states) {
+        this->states[i.first] = new State(i.first);
     }
     for(const auto& state: automata.states){
         cout<<state.first<<": "<<endl;
