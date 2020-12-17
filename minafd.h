@@ -3,6 +3,7 @@
 
 #include "bettermatrix.h"
 #include <algorithm>
+#include <iterator>
 
 unordered_map<int, bool> singleDFS(Automata& a){
     queue<int> visited {};

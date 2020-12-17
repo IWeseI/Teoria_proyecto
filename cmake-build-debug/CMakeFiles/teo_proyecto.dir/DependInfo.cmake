@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/ASUS/2020-2/TC/Teoria_proyecto/main.cpp" "C:/Users/ASUS/2020-2/TC/Teoria_proyecto/cmake-build-debug/CMakeFiles/teo_proyecto.dir/main.cpp.obj"
+  "C:/Users/Wese/Downloads/Teoria_proyecto-main (3)/Teoria_proyecto-main/Teoria_proyecto/main.cpp" "C:/Users/Wese/Downloads/Teoria_proyecto-main (3)/Teoria_proyecto-main/Teoria_proyecto/cmake-build-debug/CMakeFiles/teo_proyecto.dir/main.cpp.obj"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "MSVC")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
